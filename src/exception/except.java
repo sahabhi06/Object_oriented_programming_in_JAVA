@@ -1,4 +1,4 @@
-//package exception;
+package exception;//package exception;
 
 /*try → Contains the code that may cause an exception.
 catch → Handles the exception if it occurs in the try block.

@@ -2,9 +2,15 @@ package threads;
 class thread1 extends Thread{
     public void run()
     {
-        for (int i=1;i<=3;i++)
+        for (int i=1;i<=3;i++) {
+            try{
+                Thread.sleep(1000);
+            }
+                catch(InterruptedException e){
+                    System.out.println(e);
+            }
             System.out.println("thread1 is running");
-        System.out.println("Exit thread1");
+        }System.out.println("Exit thread1");
     }
 }
 class thread2 extends Thread{
