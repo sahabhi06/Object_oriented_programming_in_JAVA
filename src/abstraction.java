@@ -19,7 +19,7 @@ class credit extends pay1
             }
 
 }
-public class abs {
+public class abstraction {
     public static void main() {
         upipay s1=new upipay();
         credit s2=new credit();
