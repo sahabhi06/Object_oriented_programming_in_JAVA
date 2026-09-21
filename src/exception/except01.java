@@ -4,7 +4,7 @@ class except01 {
     public static void main(String[] args) {
 
         try {
-            String quantity = "124";
+            String quantity = "0";
             int q = Integer.parseInt(quantity);
 
             int price = 1000;

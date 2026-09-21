@@ -4,7 +4,7 @@
 //        (b) Create a method setMarks(int marks) that throws an exception when marks are less
 //than 0 or greater than 100. [3]
 //        (c) Use try-catch to handle the invalid marks entered by the user. [2]
-//        (d) Use a finally block to display "Result processing completed." [3]
+//        (d) Use a finally block to display "Result processing completed." [3
 package exception;
 class insufficientbalance extends Exception{
     insufficientbalance(String str)
